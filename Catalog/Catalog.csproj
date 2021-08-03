@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>8aa41dbf-0948-4abb-bfc7-ab309ce5a485</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3"/>
-    <PackageReference Include="MongoDB.Driver" Version="2.13.0"/>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.13.0" />
   </ItemGroup>
 </Project>
