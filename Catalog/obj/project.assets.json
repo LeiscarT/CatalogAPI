@@ -631,7 +631,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Leiscar Trinidad\\.nuget\\packages\\": {}
+    "C:\\Users\\Leiscar Trinidad\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -642,9 +643,13 @@
       "packagesPath": "C:\\Users\\Leiscar Trinidad\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Leiscar Trinidad\\Documents\\.Net\\Catalog API\\Catalog\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\Leiscar Trinidad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
